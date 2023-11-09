@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj": {}
+    "C:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj": {}
   },
   "projects": {
-    "c:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj": {
+    "C:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj",
+        "projectUniqueName": "C:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj",
         "projectName": "ASPWeb",
-        "projectPath": "c:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj",
+        "projectPath": "C:\\Users\\patelk\\ASPWeb\\ASPWeb.csproj",
         "packagesPath": "C:\\Users\\patelk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\patelk\\ASPWeb\\obj\\",
+        "outputPath": "C:\\Users\\patelk\\ASPWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patelk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
