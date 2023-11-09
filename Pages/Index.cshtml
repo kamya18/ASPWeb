@@ -1,0 +1,55 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <form method="post">
+        @* <h1 class="display-4"><b>Number Triangle</b></h1>
+        <label for="num">Input any number:</label>
+        <input type="text" id="Num" name="Num" value="@Model.Num" />
+        <button type="submit" id="btn">Submit</button> *@
+        @* <h1 class="display-4"><b>Sum of Numbers</b></h1>
+        <label for="number1">Enter Number1:</label>
+        <input type="text" id="Number1" name="Number1" value="@Model.Number1" />
+        <label for="number2">Enter Number2:</label>
+        <input type="text" id="Number2" name="Number2" value="@Model.Number2" />
+        <button type="submit" id="btn">Submit</button> *@
+        @* <h1 class="display-4"><b>Calculate Result</b></h1>
+        <h3 class="display-4"><b>Enter the marks of the following subjects out of 100</b></h3>
+        <label for="maths">Maths</label>
+        <input type="text" id="Maths" name="Maths" value="@Model.Maths" /><br/>
+        <label for="science">Science</label>
+        <input type="text" id="Science" name="Science" value="@Model.Science" /><br/>
+        <label for="english">English</label>
+        <input type="text" id="English" name="English" value="@Model.English" /><br/>
+        <label for="gujarati">Gujarati</label>
+        <input type="text" id="Gujarati" name="Gujarati" value="@Model.Gujarati" /><br/>
+        <label for="sanskrit">Sanskrit</label>
+        <input type="text" id="Sanskrit" name="Sanskrit" value="@Model.Sanskrit" /><br/>
+        <button type="submit" id="btn">Submit</button> *@
+        <label for="n">Enter the value:</label>
+        <input type="text" id="Value" name="Value" value="@Model.Value" /><br />
+        <button type="submit" id="btn">Submit</button>
+    </form>
+    <br>
+    <div>
+        @* @for (int i = 0; i < @Model.Num; i++)
+        {
+        Model.Count++;
+        @for (int j = 0; j < @Model.Count; j++)
+        {
+        <b>*</b>
+        }
+        <br>
+        } *@
+        @* <p>@Model.Percentage</p> *@
+        @if (Model.FactorialValue > 0)
+        {
+            <p>Factorial of @Model.Value is: @Model.FactorialValue</p>
+        }
+    </div>
+
+
+</div>
